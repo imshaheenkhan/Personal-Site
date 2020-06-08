@@ -1,0 +1,128 @@
+body{
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+hr{
+    border: dotted rgb(198, 214, 214) 6px;
+    border-bottom: none;
+    width: 8%;
+    margin: 100px auto;
+
+}
+h1{
+    font-size: 3.625rem;
+    color: #66BFBF;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+h2{
+    font-size: 1.5rem;
+    color:#66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+p{
+    line-height: 2;
+}
+a{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: #EAEAF6;
+}
+
+.Top-Container{
+    background-color: #162447;
+    position: relative;
+    padding-top: 190px;
+}
+.Middle-Container{
+    margin: 100px auto;
+}
+.Bottom-Container{
+    background-color: #1b1b2f;
+    padding: 50px 0 20px;
+}
+
+.Top-Image{
+    width: 15%;
+    position: absolute;
+    right: 6.25%;
+    top: 9.375%;
+}
+.Bottom-Image{
+    width: 15%;
+    position: absolute;
+    left: 4.375%;
+    top: 9.375%;
+}
+.Main-Image{
+    width: 30%;
+    padding-top: 75px;
+}
+.Skill-Row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+.L-Image{
+    width: 25%;
+    float: left;
+    margin-right:  30px;
+}
+.T-Image{
+    width: 25%;
+    float: right;
+    margin-right: 30px;
+}
+.Pro-Image{
+    margin-bottom: 30px;
+    width: 15%;
+}
+.Intro{
+    width: 25%;
+    margin: auto;
+}
+.Contact-Msg{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+.Copyright{
+    color: #EAEAF6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF !important;
+    font-size: 20px;
+    box-shadow: 1px 1px 1px rgb(27, 49, 63);
+    padding: 10px 20px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    border: 2px solid rgb(39, 49, 63);
+    background: rgb(16, 50, 71);
+    background: linear-gradient(top,  rgb(6, 41, 43),  rgb(44, 72, 73));
+    background: -ms-linear-gradient(top,  rgb(67, 109, 110),  rgb(87, 141, 143));
+    background: -webkit-gradient(linear, left top, left bottom, from(rgb(45, 84, 85)), to(rgb(17, 63, 65)));
+    background: -moz-linear-gradient(top,  rgb(20, 80, 82),  rgb(17, 78, 80));
+  }
+  .btn:hover {
+    color: rgb(14, 41, 77) !important;
+    background: rgb(27, 56, 83);
+    background: linear-gradient(top,  rgb(64, 100, 95),  #1b6d61);
+    background: -ms-linear-gradient(top,  rgb(93, 128, 123),  #237e70);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgb(55, 121, 112)), to(#54746f));
+    background: -moz-linear-gradient(top,  rgb(90, 138, 131),  #258173);
+  }
+  
